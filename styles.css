@@ -1,0 +1,341 @@
+﻿* { margin:0; padding:0; }
+
+body{
+
+     font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    border: 4px solid #00008B;
+}
+.mainDiv{
+    margin: auto;
+    width: 960px; 
+    font-size: 16px;
+}
+ul.menuBar, ul.form_bill {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+ul.menuBar li {
+    float: left;
+    border-right: 2px solid #ffffff;
+}
+
+.menuBar li a {
+    display: inline-block;
+    padding: 10px 61px 10px 10px;
+    color: #ffffff;
+    background-color: #4169E1;
+    }
+.bannerText{
+     width: 762px; 
+     background-color: #e67e00; 
+     padding: 0 20px 0 20px;
+}
+.bannerUpperText{
+    font-family: Arial, verdana;
+    font-size: 45px; padding-left: 10px; color: #ffffff;
+}
+.bannerDownText{
+    padding-right: 15px; 
+    font-size: 27px; 
+    color: #483D8B;
+    font-weight: bold;
+}
+.putLeft{
+    float: left;
+}
+.putRight{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.leftBody{
+    width: 200px;
+    text-align: center;
+}
+.rightBody{
+    width: 748px;
+}
+.text_blue{
+    color: blue;
+}
+.green_text{
+    color: #00b300;
+    font-style: italic;
+    text-align: center;
+}
+.serviceText{
+    color: #8B4513;
+    font-weight: bold;
+}
+.upperText, .serviceContent, .serviceAreaContent{
+    background-color: #EEE8AA;
+}
+.contactUs{
+    background-color: #FF7F50;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.paymentCard{
+    padding: 18px 15px;
+}
+.innerBorder{
+    border: 1px solid #708090;
+    margin: 1px;
+}
+.outerBorder{
+    border: 1px solid #696969;
+    margin: 2px;
+}
+.small{
+    font-variant: small-caps;
+}
+.tele_service{
+    float: left;
+    width: 279px;
+    height: 209px;
+    background: url(images/pic1.jpe) no-repeat;
+    box-shadow: inset 10px 10px 50px #ffffff;
+    background-size: 300px 215px;
+}
+.food_service{
+    float: left;
+    width: 465px;
+    height: 209px;
+    background: url(images/pic3.jpg) no-repeat;
+    background-size: 467px 215px;
+}
+.banner_img{
+    float: left;
+    width: 150px;
+    height: 121px;
+    background: url(images/tx_flag.jpg) no-repeat;
+    background-size: 152px 123px;
+}
+.bottomImg{
+    width: 30px;
+    height: 30px;
+    background: url(images/cowboyHat.jpg) no-repeat;
+    background-size: 30px 30px;
+    padding-bottom: 5px;
+}
+.visaCard{
+    width: 75px;
+    height: 55px;
+    background: url(images/visa.png) no-repeat;
+    background-size: 75px 55px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.masterCard{
+    width: 80px;
+    height: 55px;
+    background: url(images/master_card.png) no-repeat -2px;
+    background-size: 80px 61px;
+    padding-bottom: 5px;
+}
+.discoverCard{
+    width: 75px;
+    height: 55px;
+    background: url(images/discover.png) no-repeat 0 -3px;
+    background-size: 75px 55px;
+    padding-right: 5px;
+}
+.expressCard{
+        width: 75px;
+        height: 50px;
+        background: url(images/american_express.png) no-repeat -55px;
+        background-size: 195px 50px;
+}
+/*Service page Start*/
+.serviceContent, .serviceAreaContent{
+    color: #9932CC;
+    font-weight: bold;
+}
+.serviceContent {
+    line-height: 19px;
+}
+.serviceHeader{
+    text-transform: uppercase;
+    color: #8B008B;
+    margin: 20px 0 10px 0;
+    line-height: 40px;
+}
+.deliveryList{
+    margin: 50px 0 0 50px;
+}
+.serviceDeliveryImg{
+    width: 365px;
+    height: 180px;
+    background: url(images/service_truck.png) no-repeat;
+}
+.serviceLastPara{
+    margin: 10px 0 20px 0;
+}
+/*Service page End*/
+
+/*Service area page start*/
+.serviceAreaContent{
+    line-height: 25px;
+}
+#serviceArea .serviceHeader{
+    margin: 25px 0 20px 0;
+}
+.followedArea{
+    margin: 20px 0;
+    color: #483D8B;
+}
+ul#cityNumbers{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.underline_phone{
+    text-decoration: underline;
+}
+/*Service area page end*/
+
+/* Resource Page start*/
+#resource, #account{
+    height: 411px;
+}
+#resource p{
+    margin: 20px 0;
+}
+.form_bill li{
+    margin: 10px 0;
+}
+/* Resource Page end*/
+
+/* About Us page start*/
+.about_us_page{
+    border: 1px solid;
+    padding: 5px;
+}
+.about_us{
+    font-size: 18px;
+}
+.about_us h1{
+    font-size: 32px;
+    padding: 50px 0 20px 0;
+}
+.brown_text{
+    color: #b32d00;
+    font-weight: bold;
+}
+.blue_text{
+    color: #3385ff;
+    margin-bottom: 12px;
+}
+.about_us #firstPara{
+    text-align: center;
+    padding-bottom: 15px;
+}
+#firstPara p{
+    padding-top: 12px;
+}
+.visit_state{
+    padding-bottom: 12px;
+}
+/* About Us page end*/
+
+/*Accounts Page Starts*/
+.existingAct{
+    border: 1px solid grey; 
+    margin: 3px;
+}
+.textOverBorder{
+    display: block;
+    margin-top: -12px;
+    background: #EEE8AA;
+    width: 120px;
+    margin-bottom: 20px;
+}
+#NoAccount .textOverBorder{
+    width: 148px;
+}
+.innerFormBox{
+    margin: 0 10px 10px 10px;
+}
+#ForgotPswd, #GoBackAccount{
+    margin-right: 80px;
+    color: green;
+}
+#Email{
+}
+#deliveryActList{
+    padding-bottom: 10px;
+}
+#deliveryActList label, #RadioButtonList2 label{
+    margin-right: 30px;
+}
+.deliveryDetails .textOverBorder, .newAccount .textOverBorde, .recoverPswd .textOverBorder {
+    width: 150px;
+    margin-bottom: 10px;
+}
+.welcomeText, .deliveryDetails h4{
+    padding-bottom: 10px;  
+}
+#LogOut{
+    color: green;
+    margin-right: 5px;
+}
+.submitRequest{
+    text-align: center;
+}
+.createButton{
+    margin-left: 204px;
+}
+#RandomNumber{
+    background-color: #000;
+    color: #FFF;
+    font-style: italic;
+}
+.inbetweenGap{
+    padding-bottom: 5px;
+}
+.required:after 
+{
+	content: "*";
+	font-weight: bold;
+	color: red; 
+}
+#RecoverPswd{
+    margin-top: 20px;
+}
+.errorMsg{
+    color: red;
+    font-size: 10px;
+}
+#WelcomeText{
+    padding-bottom: 10px;  
+    color: #3385ff;
+    margin-bottom: 12px;
+}
+.radio_btn{
+    
+    margin-right: 30px;
+}
+#LoginRadioButtons{
+    padding-bottom: 10px;
+}
+/*Accounts Page End*/
+
+/* Contact Us Page START */
+#ContactMsgBtn{
+    margin-bottom: 5px;
+}
+.ctcForm .errorMsg{
+    padding-left: 200px;
+}
+/* Contact Us Page END */

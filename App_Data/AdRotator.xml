@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/ads/ups.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>UPS services</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/ads/fedex.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>Fedex services</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/ads/dhl.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>DHL services</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/ads/sprint.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>Sprint services</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/ads/hero.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>Hero services</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/ads/us.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/ads/ascom.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ads/crg.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ads/flower.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ads/GLS.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ads/myn.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ads/blu.png</ImageUrl>
+    <Width>185</Width>
+    <Height>130</Height>
+    <AlternateText>United States services</AlternateText>
+  </Ad>
+  
+</Advertisements>
